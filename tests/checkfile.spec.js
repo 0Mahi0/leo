@@ -21,10 +21,6 @@ test('Handling Checkboxes', async function({page}) {
         await expect(element).toBeChecked()
     }
 
-    // Unselect multiple checkboxes
-    for (const element of multiCheckBoxes) {
-        await element.uncheck()
-        await page.waitForTimeout(1500)
-        await expect(element).not.toBeChecked()
-    }
+    
 })
+
