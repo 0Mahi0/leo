@@ -28,3 +28,5 @@ test('Handling Checkboxes', async function({page}) {
         await expect(element).not.toBeChecked()
     }
 })
+
+console.log("Hello from leo");
