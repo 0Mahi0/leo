@@ -1,0 +1,20 @@
+
+
+{
+    "sauceData": {
+        "username": "standard_user",
+        "password": "secret_sauce",
+        "dropdown": "option1",
+        "checkbox": true,
+    },
+
+"data1" : {
+    "validUser": "standard_user",
+    "validPassword": "secret_sauce"
+    }
+    {
+        
+    }
+}
+
+
